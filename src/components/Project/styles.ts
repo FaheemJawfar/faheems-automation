@@ -19,19 +19,17 @@ export const Container = styled.section`
 
     .project{
       padding: 2rem 1.8rem;
-      background-color: #f8f9fa;
+      background-color: #2b2b2b;
       border-radius: 1.2rem;
       transition: 0.25s;
       display: flex;
       flex-direction: column;
       height: 100%;
-      color: var(--black);
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      border: 1px solid rgba(0,0,0,0.05);
+      color: #FFF;
       &:hover{
         transform: translateY(-5px);
-        background-color: #e9ecef;
-        box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+        background-color: #e8f5e9;
+        color: #000;
       }
 
       header{
@@ -58,7 +56,7 @@ export const Container = styled.section`
         display: flex;
         justify-content: center;
         align-items: center;
-        background: #e9ecef;
+        background: #1e1e1e;
         
         img {
           width: 100%;
