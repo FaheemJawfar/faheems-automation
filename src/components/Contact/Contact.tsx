@@ -1,7 +1,6 @@
 import { Container } from "./styles";
 import emailIcon from "../../assets/email-icon.svg";
-import phoneIcon from "../../assets/phone-icon.svg";
-import { Form } from "../Form/Form";
+import whatsappIcon from "../../assets/whatsapp.svg";
 
 export function Contact() {
   return (
@@ -19,13 +18,13 @@ export function Contact() {
           <a href="mailto:faheemjd1@gmail.com">faheemjd1@gmail.com</a>
         </div>
         <div>
-          <a href="tel:+94771011001">
-            <img src={phoneIcon} alt="Phone No" />
+          <a href="https://wa.me/94771011001" target="_blank" rel="noopener noreferrer">
+            <img src={whatsappIcon} alt="WhatsApp" />
           </a>
-          <a href="tel:+94771011001">(+94) 771011001</a>
+          <a href="https://wa.me/94771011001" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
         </div>
       </div>
-      <Form></Form>
+      <div className="calendly-inline-widget" data-url="https://calendly.com/faheemj/30min" style={{ minWidth: '320px', height: '700px' }}></div>
     </Container>
   );
 }
