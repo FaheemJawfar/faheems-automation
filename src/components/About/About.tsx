@@ -1,7 +1,7 @@
 import { Container } from "./styles";
-import VinayakSingh from "../../assets/a1.jpg";
-import python from "../../assets/python.svg"
-import java from "../../assets/java.svg"
+import FaheemJ from "../../assets/a1.jpg";
+import python from "../../assets/python.svg";
+import java from "../../assets/java.svg";
 import wordpress from "../../assets/wordpress.svg";
 import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
@@ -23,30 +23,40 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            Hi there! I'm Vinayak, an enthusiastic Software Engineer skilled in web development, machine learning, and scalable software solutions
+            Hi there! I'm Faheem, an enthusiastic Software Engineer skilled in
+            web development, machine learning, and scalable software solutions
           </p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
+        <ScrollAnimation
+          animateIn="fadeInLeft"
+          delay={0.2 * 1000}
+          style={{ marginTop: "2rem", marginBottom: "2rem" }}
+        >
           <p>
-            I build responsive web applications, fine-tune ML models, and implement robust backend services.
+            I build responsive web applications, fine-tune ML models, and
+            implement robust backend services.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
-            I also work with CMS platforms like WordPress and Shopify to streamline content management.
+            I also work with CMS platforms like WordPress and Shopify to
+            streamline content management.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={400}>
           <div className="education">
             <h3>Education:</h3>
             <h4> Master of Computer Applications (MCA)</h4>
-            <p>Vellore Institute of Technology, Chennai | July 2023 - Present</p>
+            <p>
+              Vellore Institute of Technology, Chennai | July 2023 - Present
+            </p>
             <p>8.09 CGPA</p>
           </div>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={550}>
           <div className="experience">
-             <h3>Experience:</h3><h4>Software Developer</h4>
+            <h3>Experience:</h3>
+            <h4>Software Developer</h4>
             <p>KIWIS AND BROWNIES IT SOLUTIONS | October 2024 - Present</p>
             <p>Bangalore, India</p>
           </div>
@@ -57,7 +67,7 @@ export function About() {
         </ScrollAnimation>
         <div className="hard-skills">
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={0.1 * 1000}>
               <img src={python} alt="python" />
             </ScrollAnimation>
           </div>
@@ -107,7 +117,7 @@ export function About() {
             </ScrollAnimation>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.20 * 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
               <img src={boostrapIcon} alt="bootstrap" />
             </ScrollAnimation>
           </div>
@@ -115,9 +125,9 @@ export function About() {
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.21 * 1000}>
-          <img src={VinayakSingh} alt="Vinayak Singh" />
+          <img src={FaheemJ} alt="Faheem J." />
         </ScrollAnimation>
       </div>
     </Container>
-  )
+  );
 }

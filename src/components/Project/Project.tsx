@@ -1,6 +1,6 @@
 import { Container } from "./styles";
-import githubIcon from "../../assets/github.svg"
-import externalLink from "../../assets/external-link.svg"
+import githubIcon from "../../assets/github.svg";
+import externalLink from "../../assets/external-link.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 import automationProject1 from "../../assets/a1.jpg";
 import automationProject2 from "../../assets/a2.jpg";
@@ -11,16 +11,29 @@ export function Project() {
     <Container id="project">
       <h2>Automation Projects</h2>
       <div className="projects">
-
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b"
+                strokeWidth="1"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
                 <title>Folder</title>
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
               <div className="project-links">
-                <a href="https://github.com/faheemj/TestAutomationFramework" target="_blank" rel="noreferrer">
+                <a
+                  href="https://github.com/faheemj/TestAutomationFramework"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={githubIcon} alt="GitHub" />
                 </a>
               </div>
@@ -31,7 +44,9 @@ export function Project() {
             <div className="body">
               <h3>End-to-End Test Automation Framework</h3>
               <p>
-                Developed a comprehensive test automation framework supporting web, API and mobile testing with parallel execution and CI/CD integration.
+                Developed a comprehensive test automation framework supporting
+                web, API and mobile testing with parallel execution and CI/CD
+                integration.
               </p>
             </div>
             <footer>
@@ -47,35 +62,92 @@ export function Project() {
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b"
+                strokeWidth="1"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                {" "}
+                <title>Folder</title>{" "}
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>{" "}
+              </svg>
               <div className="project-links">
-                <a href="https://github.com/faheemj/CI-Pipeline" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" /></a>
-                <a href="https://ci-pipeline.example.com" target="_blank" rel="noreferrer">
+                <a
+                  href="https://github.com/faheemj/CI-Pipeline"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={githubIcon} alt="Visit site" />
+                </a>
+                <a
+                  href="https://ci-pipeline.example.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={externalLink} alt="Visit site" />
                 </a>
-                </div>
+              </div>
             </header>
             <div className="image-preview">
               <img src={automationProject2} alt="CI/CD Pipeline" />
             </div>
             <div className="body">
               <h3>Automated CI/CD Pipeline</h3>
-              <p> Developed an end-to-end CI/CD pipeline with automated testing, security scanning, and deployment to multiple environments, reducing release cycles from weeks to hours. </p>
+              <p>
+                {" "}
+                Developed an end-to-end CI/CD pipeline with automated testing,
+                security scanning, and deployment to multiple environments,
+                reducing release cycles from weeks to hours.{" "}
+              </p>
             </div>
-            <footer> <ul className="tech-list"> <li>Jenkins</li> <li>Docker</li> <li>Kubernetes</li> </ul> </footer>
+            <footer>
+              {" "}
+              <ul className="tech-list">
+                {" "}
+                <li>Jenkins</li> <li>Docker</li> <li>Kubernetes</li>{" "}
+              </ul>{" "}
+            </footer>
           </div>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"><title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b "
+                strokeWidth="1"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <title>Folder</title>{" "}
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>{" "}
+              </svg>
               <div className="project-links">
-                <a href="https://github.com/faheemj/RPA-Framework" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" /> </a>
-                <a href="https://rpa-framework.example.com" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" /></a>
+                <a
+                  href="https://github.com/faheemj/RPA-Framework"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={githubIcon} alt="Visit site" />{" "}
+                </a>
+                <a
+                  href="https://rpa-framework.example.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={externalLink} alt="Visit site" />
+                </a>
               </div>
             </header>
             <div className="image-preview">
@@ -84,7 +156,9 @@ export function Project() {
             <div className="body">
               <h3>Enterprise RPA Framework</h3>
               <p>
-                Built a scalable RPA framework using UiPath and Python to automate business processes across finance, HR and operations, saving 5000+ manual hours annually.
+                Built a scalable RPA framework using UiPath and Python to
+                automate business processes across finance, HR and operations,
+                saving 5000+ manual hours annually.
               </p>
             </div>
             <footer>
@@ -97,16 +171,36 @@ export function Project() {
           </div>
         </ScrollAnimation>
 
-
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b "
+                stroke-width="1"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
               <div className="project-links">
-                <a href="https://github.com/faheemj/TestDataGenerator" target="_blank" rel="noreferrer">
+                <a
+                  href="https://github.com/faheemj/TestDataGenerator"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={githubIcon} alt="Visit site" />
                 </a>
-                <a href="https://testdata.example.com" target="_blank" rel="noreferrer">
+                <a
+                  href="https://testdata.example.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
@@ -116,7 +210,11 @@ export function Project() {
             </div>
             <div className="body">
               <h3>Automated Test Data Generator</h3>
-              <p>Developed a test data generation tool that creates realistic synthetic data for testing automation frameworks, with support for multiple data formats and masking of sensitive information.</p>
+              <p>
+                Developed a test data generation tool that creates realistic
+                synthetic data for testing automation frameworks, with support
+                for multiple data formats and masking of sensitive information.
+              </p>
             </div>
             <footer>
               <ul className="tech-list">
@@ -131,25 +229,50 @@ export function Project() {
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b"
+                strokeWidth="1"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
                 <title>Code</title>
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
               <div className="project-links">
-                <a href="https://github.com/faheemj/PerformanceTesting" target="_blank" rel="noreferrer">
+                <a
+                  href="https://github.com/faheemj/PerformanceTesting"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={githubIcon} alt="Visit site" />
                 </a>
-                <a href="https://perftest.example.com" target="_blank" rel="noreferrer">
+                <a
+                  href="https://perftest.example.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
             </header>
             <div className="image-preview">
-              <img src={automationProject3} alt="Performance Testing Framework" />
+              <img
+                src={automationProject3}
+                alt="Performance Testing Framework"
+              />
             </div>
             <div className="body">
               <h3>Performance Testing Framework</h3>
-              <p>Built a distributed performance testing framework using Locust and Kubernetes that can simulate thousands of concurrent users and generate detailed performance reports.</p>
+              <p>
+                Built a distributed performance testing framework using Locust
+                and Kubernetes that can simulate thousands of concurrent users
+                and generate detailed performance reports.
+              </p>
             </div>
             <footer>
               <ul className="tech-list">
@@ -164,15 +287,29 @@ export function Project() {
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b"
+                strokeWidth="1"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
                 <title>Folder</title>
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
               <div className="project-links">
-                <a href="https://github.com/CodeVinayak/Jupyter-Notebook/tree/main/Credit%20Risk%20Analysis" target="\_blank" rel="noreferrer">
+                <a
+                  href="https://github.com/CodeFaheem/Jupyter-Notebook/tree/main/Credit%20Risk%20Analysis"
+                  target="\_blank"
+                  rel="noreferrer"
+                >
                   <img src={githubIcon} alt="Visit site" />
                 </a>
-                {/* <a href="https://github.com/CodeVinayak/Jupyter-Notebook/blob/main/Credit%20Risk%20Analysis/Credit_Risk_Analysis.ipynb" target="\_blank" rel="noreferrer">
+                {/* <a href="https://github.com/CodeFaheem/Jupyter-Notebook/blob/main/Credit%20Risk%20Analysis/Credit_Risk_Analysis.ipynb" target="\_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a> */}
               </div>
@@ -180,7 +317,12 @@ export function Project() {
             <div className="body">
               <h3>Credit Risk Analysis Project</h3>
               <p>
-                Developed a highly accurate credit risk classification model using XGBoost, achieving 100% precision, recall, and F1-scores for predicting loan defaults.Implemented rigorous data preprocessing, feature engineering, and hyperparameter tuning on imbalanced credit risk data, employing ensemble methods, cross-validation, and model interpretation techniques.
+                Developed a highly accurate credit risk classification model
+                using XGBoost, achieving 100% precision, recall, and F1-scores
+                for predicting loan defaults.Implemented rigorous data
+                preprocessing, feature engineering, and hyperparameter tuning on
+                imbalanced credit risk data, employing ensemble methods,
+                cross-validation, and model interpretation techniques.
               </p>
             </div>
             <footer>
@@ -193,14 +335,12 @@ export function Project() {
           </div>
         </ScrollAnimation>
 
-        
-        {
-        /* <ScrollAnimation animateIn="flipInX">
+        {/* <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
               <div className="project-links">
-                <a href="https://velocityai.vinayaksingh.com/" target="_blank" rel="noreferrer">
+                <a href="https://velocityai.FaheemJ.com/" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
@@ -220,9 +360,7 @@ export function Project() {
               </ul>
             </footer>
           </div>
-        </ScrollAnimation> */
-        
-        }
+        </ScrollAnimation> */}
 
         {/* <ScrollAnimation animateIn="flipInX">
           <div className="project">
@@ -370,7 +508,6 @@ export function Project() {
             </footer>
           </div>
         </ScrollAnimation> */}
-
       </div>
     </Container>
   );
