@@ -23,8 +23,9 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            Hi there! I'm Faheem, an enthusiastic Software Engineer skilled in
-            web development, machine learning, and scalable software solutions
+            Hi there! I'm Faheem, a Top Rated Automation Expert on Upwork specializing in
+            Make.com and N8N platforms. I help businesses automate workflows and
+            integrate systems for maximum efficiency.
           </p>
         </ScrollAnimation>
         <ScrollAnimation
@@ -33,37 +34,42 @@ export function About() {
           style={{ marginTop: "2rem", marginBottom: "2rem" }}
         >
           <p>
-            I build responsive web applications, fine-tune ML models, and
-            implement robust backend services.
+            I design complex automation workflows, connect disparate systems,
+            and implement no-code solutions that save hundreds of work hours.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
-            I also work with CMS platforms like WordPress and Shopify to
-            streamline content management.
+            With over 8 years as a Top Rated freelancer on Upwork, I've delivered
+            numerous successful automation projects for clients worldwide.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={400}>
           <div className="education">
             <h3>Education:</h3>
-            <h4> Master of Computer Applications (MCA)</h4>
+            <h4> Bachelor of Software Engineering (BSE)</h4>
             <p>
-              Vellore Institute of Technology, Chennai | July 2023 - Present
+              Open University of Sri Lanka (2023 - Present)
             </p>
-            <p>8.09 CGPA</p>
           </div>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={550}>
           <div className="experience">
             <h3>Experience:</h3>
-            <h4>Software Developer</h4>
-            <p>KIWIS AND BROWNIES IT SOLUTIONS | October 2024 - Present</p>
-            <p>Bangalore, India</p>
+            <h4>Top Rated Automation Expert</h4>
+            <p>Upwork.com | 2015 - Present</p>
+            <p>Specializations:</p>
+            <ul>
+              <li>Make.com (Integromat) workflow automation</li>
+              <li>N8N workflow orchestration</li>
+              <li>API integrations</li>
+              <li>Business process automation</li>
+            </ul>
           </div>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
-          <h3>Here are my main skills:</h3>
+          <h3>My Automation & Development Stack:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
           <div className="hability">
@@ -122,6 +128,14 @@ export function About() {
             </ScrollAnimation>
           </div>
         </div>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.5 * 1000}>
+          <h4>Automation Platforms:</h4>
+          <ul>
+            <li>Make.com (Integromat)</li>
+            <li>N8N</li>
+            <li>Zapier</li>
+          </ul>
+        </ScrollAnimation>
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.21 * 1000}>
