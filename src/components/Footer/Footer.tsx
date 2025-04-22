@@ -10,8 +10,8 @@ export function Footer() {
   return (
     <Container className="footer">
       <a href="https://FaheemJ.com" className="logo">
-        <span>www.Faheem</span>
-        <span>.com</span>
+        <span>maken8n</span>
+        <span>.online</span>
       </a>
       <div>
         <p>
