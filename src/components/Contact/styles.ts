@@ -4,10 +4,6 @@ import styled from "styled-components";
 export const Container = styled.section`
   margin-top: 10rem;
 
-  .schedule-header {
-    margin-top: 2rem;
-  }
-
   header{
     text-align: center;
     h2{

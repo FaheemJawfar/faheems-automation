@@ -24,6 +24,7 @@ export function Contact() {
           <a href="https://wa.me/94771011001" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
         </div>
       </div>
+      <br></br>
       <header className="schedule-header">
         <h2>Schedule a Meeting</h2>
         <p className="description">Book a 30-minute consultation at your convenience</p>
