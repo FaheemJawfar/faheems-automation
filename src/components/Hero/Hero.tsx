@@ -52,7 +52,7 @@ export function Hero() {
             >
               <img src={whatsapp} alt="Whatsapp" />
             </a>
-            <a href="https://t.me/CodeFaheem" target="_blank" rel="noreferrer">
+            <a href="https://t.me/CodeFaheemtest" target="_blank" rel="noreferrer">
               <img src={telegram} alt="telegram" />
             </a>
           </div>
