@@ -40,8 +40,8 @@ export function Header() {
           <NavHashLink smooth to="#contact" onClick={closeMenu}>
             Contact
           </NavHashLink>
-          <a href={Resume} download className="button">
-            Resume
+          <a href="https://calendly.com/faheemjd1/30min" className="button">
+            Book an Appointment
           </a>
         </nav>
         <div

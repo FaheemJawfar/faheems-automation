@@ -28,7 +28,7 @@ export function Contact() {
         <h2>Schedule a Meeting</h2>
         <p className="description">Book a 30-minute consultation at your convenience</p>
       </header>
-      <div className="calendly-inline-widget" data-url="https://calendly.com/faheemj/30min" style={{ minWidth: '320px', height: '700px' }}></div>
+      <div className="calendly-inline-widget" data-url="https://calendly.com/faheemjd1/30min" style={{ minWidth: '320px', height: '700px' }}></div>
     </Container>
   );
 }
