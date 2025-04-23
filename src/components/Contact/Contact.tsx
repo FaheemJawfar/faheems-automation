@@ -60,13 +60,8 @@ export function Contact() {
         </p>
       </header>
 
-      <div
-        className="calendly-inline-widget"
-        data-url="https://calendly.com/faheemjd1/30min"
-        style={{ minWidth: "320px", height: "700px" }}
-        itemScope
-        itemType="http://schema.org/ScheduleAction"
-      ></div>
+      <div className="calendly-inline-widget" data-url="https://calendly.com/faheemjd1/30min" style={{ minWidth: "320px", height: "700px" }}></div>
+      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
     </Container>
   );
 }
