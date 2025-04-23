@@ -1,4 +1,5 @@
 import { Container } from "./styles";
+import CalendlyWidget from './CalendlyWidget';
 import emailIcon from "../../assets/email-icon.svg";
 import whatsappIcon from "../../assets/whatsapp.svg";
 
@@ -60,8 +61,7 @@ export function Contact() {
         </p>
       </header>
 
-      <div className="calendly-inline-widget" data-url="https://calendly.com/faheemjd1/30min" style={{ minWidth: "320px", height: "700px" }}></div>
-      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+      <CalendlyWidget />
     </Container>
   );
 }
