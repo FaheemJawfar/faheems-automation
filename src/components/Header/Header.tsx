@@ -42,7 +42,7 @@ export function Header() {
             Contact
           </NavHashLink>
           <a href="https://calendly.com/faheemjd1/30min" className="button">
-            Book an Appointment
+            Schedule a Meeting
           </a>
         </nav>
         <div
