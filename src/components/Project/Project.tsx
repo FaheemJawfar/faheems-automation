@@ -2,17 +2,17 @@ import { Container } from "./styles";
 import githubIcon from "../../assets/github.svg";
 import externalLink from "../../assets/external-link.svg";
 import ScrollAnimation from "react-animate-on-scroll";
-import makeProject1 from "../../assets/screenshots/Vapi Appointment Booking AI Agent.jpg";
-import makeProject2 from "../../assets/screenshots/WooCommerce Order Management System.jpg";
-import makeProject3 from "../../assets/screenshots/AI Avatar Automation.jpg";
-import makeProject4 from "../../assets/screenshots/Automated Faceless Videos.jpg";
-import makeProject5 from "../../assets/screenshots/Generate AI Video from Video or Script.jpg";
-import makeProject6 from "../../assets/screenshots/Post to Social Media.jpg";
-import makeProject7 from "../../assets/screenshots/Google Maps Places to Article Content.jpg";
-import makeProject8 from "../../assets/screenshots/Social Media Lead Generator.jpg";
-import makeProject9 from "../../assets/screenshots/Automated SMS Outreach.jpg";
-
-
+import vapiAppointment from "../../assets/screenshots/Vapi Appointment Booking AI Agent.jpg";
+import woocommerceOrder from "../../assets/screenshots/WooCommerce Order Management System.jpg";
+import aiAvatar from "../../assets/screenshots/AI Avatar Email Outreach.jpg";
+import facelessVideos from "../../assets/screenshots/Automated Faceless Videos.jpg";
+import smsOutreach from "../../assets/screenshots/Automated SMS Outreach.jpg";
+import aiVideoGen from "../../assets/screenshots/Generate AI Video from Video or Script.jpg";
+import googleMapstoArticle from "../../assets/screenshots/Google Maps Places to Article Content.jpg";
+import postToSocialMedia from "../../assets/screenshots/Post to Social Media.jpg";
+import socialMediaLeads from "../../assets/screenshots/Social Media Lead Generator.jpg";
+import facelessPOVVideo from "../../assets/screenshots/Faceless POV Video - AI Agent.jpg";
+import top10Videos from "../../assets/screenshots/Automated Top Ten Videos to YouTube.jpg";
 
 interface ProjectItemProps {
   title: string;
@@ -80,76 +80,92 @@ function ProjectItem({
 export function Project() {
   const projects = [
     {
-      title: "End-to-End Test Automation Framework",
-      description: "Developed a comprehensive test automation framework supporting web, API and mobile testing with parallel execution and CI/CD integration. Reduced testing time by 85% and increased test coverage by 60%.",
-      githubUrl: "https://github.com/faheemj/TestAutomationFramework",
-      imageSrc: makeProject1,
-      imageAlt: "Test Automation Framework architecture diagram",
-      techStack: ["Selenium", "Playwright", "Jenkins"]
+      title: "Vapi Appointment Booking AI Agent",
+      description: "Automated appointment scheduling using Vapi's conversational AI with ChatGPT for natural language processing and Google Calendar API for real-time availability checks and bookings.",
+      githubUrl: "https://github.com/faheemj/vapi-appointment-agent",
+      imageSrc: vapiAppointment,
+      imageAlt: "Vapi AI agent conversation interface",
+      techStack: ["Vapi", "ChatGPT", "Google Calendar API"]
     },
     {
-      title: "Enterprise CI/CD Pipeline",
-      description: "Developed an end-to-end CI/CD pipeline with automated testing, security scanning, and deployment to multiple environments. Reduced release cycles from weeks to hours and deployment failures by 90%.",
-      githubUrl: "https://github.com/faheemj/CI-Pipeline",
-      imageSrc: makeProject2,
-      imageAlt: "CI/CD Pipeline workflow diagram",
-      techStack: ["Jenkins", "Docker", "Kubernetes"]
+      title: "WooCommerce Order Management System",
+      description: "Automated WooCommerce order fulfillment pipeline with custom API integrations for inventory management, shipping label generation, and customer notifications.",
+      githubUrl: "https://github.com/faheemj/woocommerce-automation",
+      imageSrc: woocommerceOrder,
+      imageAlt: "WooCommerce order management dashboard",
+      techStack: ["WooCommerce", "Custom API"]
     },
     {
-      title: "Enterprise RPA Framework",
-      description: "Built a scalable RPA framework using UiPath and Python to automate business processes across finance, HR and operations. Saved 5000+ manual hours annually with 99.9% accuracy.",
-      githubUrl: "https://github.com/faheemj/RPA-Framework",
-      imageSrc: makeProject3,
-      imageAlt: "RPA Framework architecture diagram",
-      techStack: ["UiPath", "Python", "Power Automate"]
+      title: "AI Avatar Email Outreach",
+      description: "Automated personalized email campaigns using HeyGen AI avatars with dynamic content from Airtable, ChatGPT for message generation, and Gmail API for delivery tracking.",
+      githubUrl: "https://github.com/faheemj/ai-avatar-automation",
+      imageSrc: aiAvatar,
+      imageAlt: "AI Avatar Email Outreach dashboard",
+      techStack: ["HeyGen AI","Airtable", "ChatGPT", "Gmail API", "Cloudinary"]
     },
     {
-      title: "Automated Test Data Generator",
-      description: "Developed a test data generation tool that creates realistic synthetic data for testing automation frameworks. Reduced test data preparation time by 95% while ensuring data privacy compliance.",
-      githubUrl: "https://github.com/faheemj/TestDataGenerator",
-      imageSrc: makeProject4,
-      imageAlt: "Test Data Generator interface screenshot",
-      techStack: ["Python", "Faker", "Pandas"]
+      title: "Automated Faceless Videos",
+      description: "Automated YouTube video production pipeline using ElevenLabs for AI narration, Leanardo AI for visuals, and Google Drive integration for asset management via Airtable triggers.",
+      githubUrl: "https://github.com/faheemj/faceless-video-automation",
+      imageSrc: facelessVideos,
+      imageAlt: "Automated video creation interface",
+      techStack: ["Aitable","ElevenLabs", "Google Drive", "Leanardo AI"]
     },
     {
-      title: "Performance Testing Framework",
-      description: "Built a distributed performance testing framework using Locust and Kubernetes that can simulate 10,000+ concurrent users. Identified and resolved 15+ critical performance bottlenecks.",
-      githubUrl: "https://github.com/faheemj/PerformanceTesting",
-      imageSrc: makeProject5,
-      imageAlt: "Performance testing results dashboard",
-      techStack: ["Locust", "Kubernetes", "Grafana"]
+      title: "Automated SMS Outreach",
+      description: "Automated SMS campaign management with Google Sheets for contact lists and message templates, integrated with RingCentral API for message delivery and response tracking.",
+      githubUrl: "https://github.com/faheemj/sms-automation",
+      imageSrc: smsOutreach,
+      imageAlt: "SMS campaign management dashboard",
+      techStack: ["Google Sheets", "RingCentral API"]
     },
     {
-      title: "Enterprise CI/CD Pipeline",
-      description: "Developed an end-to-end CI/CD pipeline with automated testing, security scanning, and deployment to multiple environments. Reduced release cycles from weeks to hours and deployment failures by 90%.",
-      githubUrl: "https://github.com/faheemj/CI-Pipeline",
-      imageSrc: makeProject6,
-      imageAlt: "CI/CD Pipeline workflow diagram",
-      techStack: ["Jenkins", "Docker", "Kubernetes"]
+      title: "AI Video Generator",
+      description: "Automated video production workflow using HeyGen AI for avatar generation, ChatGPT for script writing, and Airtable for content management with RapidAPI integrations.",
+      githubUrl: "https://github.com/faheemj/ai-video-generator",
+      imageSrc: aiVideoGen,
+      imageAlt: "AI video generation interface",
+      techStack: ["HeyGen AI", "RapidAPI", "ChatGPT", "Airtable"]
     },
     {
-      title: "Enterprise RPA Framework",
-      description: "Built a scalable RPA framework using UiPath and Python to automate business processes across finance, HR and operations. Saved 5000+ manual hours annually with 99.9% accuracy.",
-      githubUrl: "https://github.com/faheemj/RPA-Framework",
-      imageSrc: makeProject7,
-      imageAlt: "RPA Framework architecture diagram",
-      techStack: ["UiPath", "Python", "Power Automate"]
+      title: "Google Maps to Article Content",
+      description: "Automated content creation pipeline extracting business data via Google Maps API, processing with DeepSeek AI, and storing outputs in Box.com.",
+      githubUrl: "https://github.com/faheemj/maps-to-article",
+      imageSrc: googleMapstoArticle,
+      imageAlt: "Google Maps content automation workflow",
+      techStack: ["Google Maps API", "RapidAPI", "Box.com API", "DeepSeek AI"]
     },
     {
-      title: "Automated Test Data Generator",
-      description: "Developed a test data generation tool that creates realistic synthetic data for testing automation frameworks. Reduced test data preparation time by 95% while ensuring data privacy compliance.",
-      githubUrl: "https://github.com/faheemj/TestDataGenerator",
-      imageSrc: makeProject8,
-      imageAlt: "Test Data Generator interface screenshot",
-      techStack: ["Python", "Faker", "Pandas"]
+      title: "Social Media Post Automation",
+      description: "Automated cross-platform social media management system with unified API integrations for Facebook, Twitter, Instagram, and LinkedIn post scheduling and analytics.",
+      githubUrl: "https://github.com/faheemj/social-media-automation",
+      imageSrc: postToSocialMedia,
+      imageAlt: "Social media posting dashboard",
+      techStack: ["Facebook API", "Twitter API", "Instagram API", "LinkedIn API"]
     },
     {
-      title: "Performance Testing Framework",
-      description: "Built a distributed performance testing framework using Locust and Kubernetes that can simulate 10,000+ concurrent users. Identified and resolved 15+ critical performance bottlenecks.",
-      githubUrl: "https://github.com/faheemj/PerformanceTesting",
-      imageSrc: makeProject9,
-      imageAlt: "Performance testing results dashboard",
-      techStack: ["Locust", "Kubernetes", "Grafana"]
+      title: "Social Media Lead Generator",
+      description: "Automated lead identification system using Google Search API for discovery, OpenRouter for API management, with Gemini AI and DeepSeek AI for lead qualification.",
+      githubUrl: "https://github.com/faheemj/social-lead-generator",
+      imageSrc: socialMediaLeads,
+      imageAlt: "Lead generation analytics dashboard",
+      techStack: ["Google Search API", "OpenRouter API", "Gemini AI", "DeepSeek AI"]
+    },
+    {
+      title: "Faceless POV Video AI Agent",
+      description: "Automated first-person perspective video creation using ChatGPT for script generation, Flux AI for scene composition, KlingAI for image to video conversion, with YouTube API for publishing and Google Drive for asset storage.",
+      githubUrl: "https://github.com/faheemj/faceless-pov-agent",
+      imageSrc: facelessPOVVideo,
+      imageAlt: "Faceless POV video creation interface",
+      techStack: ["ChatGPT", "Flux AI", "Youtube API", "KlingAI", "Google Drive"]
+    },
+    {
+      title: "Automated Top 10 Videos to YouTube",
+      description: "Automated production of 'Top 10' style videos using ChatGPT for research and scripting, JSON2Video API for video assembly, with YouTube API for scheduling uploads and Google Sheets for content management.",
+      githubUrl: "https://github.com/faheemj/top10-video-automation",
+      imageSrc: top10Videos,
+      imageAlt: "Top 10 video automation dashboard",
+      techStack: ["ChatGPT", "JSON2Video API", "Youtube API", "Google Sheets"]
     }
   ];
 
