@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import FaheemJ from "../../assets/a1.jpg";
+import FaheemJ from "../../assets/faheem-dp.png";
 import python from "../../assets/python.svg";
 import java from "../../assets/java.svg";
 import wordpress from "../../assets/wordpress.svg";
@@ -22,7 +22,7 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p itemProp="description">
-            Hi there! I'm a <span itemProp="jobTitle">Top Rated Automation Expert</span> on Upwork specializing in
+            Hi there! I'm a <span itemProp="jobTitle">Top Rated Automation Expert</span> specializing in
             Make.com and N8N platforms. I help businesses automate workflows and
             integrate systems for maximum efficiency.
           </p>

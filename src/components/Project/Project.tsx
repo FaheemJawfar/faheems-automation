@@ -2,14 +2,24 @@ import { Container } from "./styles";
 import githubIcon from "../../assets/github.svg"
 import externalLink from "../../assets/external-link.svg"
 import ScrollAnimation from "react-animate-on-scroll";
-import automationProject1 from "../../assets/a1.jpg";
-import automationProject2 from "../../assets/a2.jpg";
-import automationProject3 from "../../assets/a3.jpg";
+import makeProject1 from "../../assets/screenshots/Vapi Appointment Booking AI Agent.jpg";
+import makeProject2 from "../../assets/screenshots/WooCommerce Order Management System.jpg";
+import makeProject3 from "../../assets/screenshots/AI Avatar Automation.jpg";
+import makeProject4 from "../../assets/a3.jpg";
+import makeProject5 from "../../assets/a3.jpg";
+import makeProject6 from "../../assets/a3.jpg";
+import makeProject7 from "../../assets/a3.jpg";
+import makeProject8 from "../../assets/a3.jpg";
+import makeProject9 from "../../assets/a3.jpg";
+import n8nProject1 from "../../assets/a3.jpg";
+import n8nProject2 from "../../assets/a3.jpg";
+
+
 
 export function Project() {
   return (
     <Container id="project" itemScope itemType="http://schema.org/ItemList">
-      <h2>Automation Engineering Portfolio</h2>
+      <h2>Automation Portfolio</h2>
       <div className="projects">
 
         <ScrollAnimation animateIn="flipInX">
@@ -26,7 +36,7 @@ export function Project() {
               </div>
             </header>
             <div className="image-preview">
-              <img src={automationProject1} alt="Test Automation Framework architecture diagram" itemProp="image" />
+              <img src={makeProject1} alt="Test Automation Framework architecture diagram" itemProp="image" />
             </div>
             <div className="body">
               <h3 itemProp="name">End-to-End Test Automation Framework</h3>
@@ -55,13 +65,13 @@ export function Project() {
                 <a href="https://github.com/faheemj/CI-Pipeline" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="View CI/CD Pipeline on GitHub" />
                 </a>
-                <a href="https://ci-pipeline.example.com" target="_blank" rel="noreferrer">
+                {/* <a href="https://ci-pipeline.example.com" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="View CI/CD Pipeline Demo" />
-                </a>
+                </a> */}
               </div>
             </header>
             <div className="image-preview">
-              <img src={automationProject2} alt="CI/CD Pipeline workflow diagram" itemProp="image" />
+              <img src={makeProject2} alt="CI/CD Pipeline workflow diagram" itemProp="image" />
             </div>
             <div className="body">
               <h3 itemProp="name">Enterprise CI/CD Pipeline</h3>
@@ -90,13 +100,13 @@ export function Project() {
                 <a href="https://github.com/faheemj/RPA-Framework" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="View RPA Framework on GitHub" />
                 </a>
-                <a href="https://rpa-framework.example.com" target="_blank" rel="noreferrer">
+                {/* <a href="https://rpa-framework.example.com" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="View RPA Framework Demo" />
-                </a>
+                </a> */}
               </div>
             </header>
             <div className="image-preview">
-              <img src={automationProject3} alt="RPA Framework architecture diagram" itemProp="image" />
+              <img src={makeProject3} alt="RPA Framework architecture diagram" itemProp="image" />
             </div>
             <div className="body">
               <h3 itemProp="name">Enterprise RPA Framework</h3>
@@ -125,13 +135,13 @@ export function Project() {
                 <a href="https://github.com/faheemj/TestDataGenerator" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="View Test Data Generator on GitHub" />
                 </a>
-                <a href="https://testdata.example.com" target="_blank" rel="noreferrer">
+                {/* <a href="https://testdata.example.com" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="View Test Data Generator Demo" />
-                </a>
+                </a> */}
               </div>
             </header>
             <div className="image-preview">
-              <img src={automationProject1} alt="Test Data Generator interface screenshot" itemProp="image" />
+              <img src={makeProject1} alt="Test Data Generator interface screenshot" itemProp="image" />
             </div>
             <div className="body">
               <h3 itemProp="name">Automated Test Data Generator</h3>
@@ -160,13 +170,13 @@ export function Project() {
                 <a href="https://github.com/faheemj/PerformanceTesting" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="View Performance Testing Framework on GitHub" />
                 </a>
-                <a href="https://perftest.example.com" target="_blank" rel="noreferrer">
+                {/* <a href="https://perftest.example.com" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="View Performance Testing Demo" />
-                </a>
+                </a> */}
               </div>
             </header>
             <div className="image-preview">
-              <img src={automationProject3} alt="Performance testing results dashboard" itemProp="image" />
+              <img src={makeProject3} alt="Performance testing results dashboard" itemProp="image" />
             </div>
             <div className="body">
               <h3 itemProp="name">Performance Testing Framework</h3>
