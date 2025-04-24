@@ -2,17 +2,17 @@ import { Container } from "./styles";
 import githubIcon from "../../assets/github.svg";
 import externalLink from "../../assets/external-link.svg";
 import ScrollAnimation from "react-animate-on-scroll";
-import vapiAppointment from "../../assets/screenshots/Vapi Appointment Booking AI Agent.jpg";
-import woocommerceOrder from "../../assets/screenshots/WooCommerce Order Management System.jpg";
-import aiAvatar from "../../assets/screenshots/AI Avatar Email Outreach.jpg";
-import facelessVideos from "../../assets/screenshots/Automated Faceless Videos.jpg";
-import smsOutreach from "../../assets/screenshots/Automated SMS Outreach.jpg";
-import aiVideoGen from "../../assets/screenshots/Generate AI Video from Video or Script.jpg";
-import googleMapstoArticle from "../../assets/screenshots/Google Maps Places to Article Content.jpg";
-import postToSocialMedia from "../../assets/screenshots/Post to Social Media.jpg";
-import socialMediaLeads from "../../assets/screenshots/Social Media Lead Generator.jpg";
-import facelessPOVVideo from "../../assets/screenshots/Faceless POV Video - AI Agent.jpg";
-import top10Videos from "../../assets/screenshots/Automated Top Ten Videos to YouTube.jpg";
+import vapiAppointment from "../../assets/screenshots/vapi-appointment-booking-ai-agent.jpg";
+import woocommerceOrder from "../../assets/screenshots/woocommerce-order-management-system.jpg";
+import aiAvatar from "../../assets/screenshots/ai-avatar-email-outreach.jpg";
+import facelessVideos from "../../assets/screenshots/automated-faceless-videos.jpg";
+import smsOutreach from "../../assets/screenshots/automated-sms-outreach.jpg";
+import aiVideoGen from "../../assets/screenshots/generate-ai-video-from-video-or-script.jpg";
+import googleMapstoArticle from "../../assets/screenshots/google-maps-places-to-article-content.jpg";
+import postToSocialMedia from "../../assets/screenshots/post-to-social-media.jpg";
+import socialMediaLeads from "../../assets/screenshots/social-media-lead-generator.jpg";
+import facelessPOVVideo from "../../assets/screenshots/faceless-pov-video-ai-agent.jpg";
+import top10Videos from "../../assets/screenshots/automated-top10-videos-youtube.jpg";
 
 interface ProjectItemProps {
   title: string;
