@@ -4,21 +4,81 @@ import { Hero } from "../Hero/Hero";
 import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
 import { Project } from "../Project/Project";
-import python from "../../assets/python.svg"
-import java from "../../assets/java.svg"
+
+// Platforms
 import wordpress from "../../assets/wordpress.svg";
 import shopify from "../../assets/shopify.svg";
-import htmlIcon from "../../assets/html-icon.svg";
-import cssIcon from "../../assets/css-icon.svg";
-import sassIcon from "../../assets/sass-icon.svg";
-import jsIcon from "../../assets/js-icon.svg";
-// import nodeIcon from "../../assets/node-icon.svg";
-import reactIcon from "../../assets/react-icon.svg";
-import typescriptIcon from "../../assets/typescript-icon.svg";
-import vueIcon from "../../assets/vue-icon.svg";
-import boostrapIcon from "../../assets/bootstrap-icon.svg";
+import airtableIcon from "../../assets/tech-stack/airtable.svg";
+import calendlyTriggerIcon from "../../assets/tech-stack/calendly-trigger.svg";
+import clickupIcon from "../../assets/tech-stack/clickup.svg";
+import codeIcon from "../../assets/tech-stack/code.svg";
+import deepseekChatIcon from "../../assets/tech-stack/deepseek-chat.svg";
+import dropboxIcon from "../../assets/tech-stack/dropbox.svg";
+import gmailIcon from "../../assets/tech-stack/gmail.svg";
+import googleCalendarIcon from "../../assets/tech-stack/google-calendar.svg";
+import googleDocsIcon from "../../assets/tech-stack/google-docs.svg";
+import googleDriveIcon from "../../assets/tech-stack/google-drive.svg";
+import googleSheetsIcon from "../../assets/tech-stack/google-sheets.svg";
+import highlevelIcon from "../../assets/tech-stack/highlevel.svg";
+import httpRequestIcon from "../../assets/tech-stack/http-request.svg";
+import hubspotIcon from "../../assets/tech-stack/hubspot.svg";
+import mailchimpIcon from "../../assets/tech-stack/mailchimp.svg";
+import mailgunIcon from "../../assets/tech-stack/mailgun.svg";
+import microsoftExcelIcon from "../../assets/tech-stack/microsoft-excel.svg";
+import microsoftOutlookIcon from "../../assets/tech-stack/microsoft-outlook.svg";
+import mongodbIcon from "../../assets/tech-stack/mongodb.svg";
+import notionTriggerIcon from "../../assets/tech-stack/notion-trigger-beta.svg";
+import odooIcon from "../../assets/tech-stack/odoo.svg";
+import openaiIcon from "../../assets/tech-stack/openai.svg";
+import pipedriveIcon from "../../assets/tech-stack/pipedrive.svg";
+import slackIcon from "../../assets/tech-stack/slack.svg";
+import supabaseIcon from "../../assets/tech-stack/supabase.svg";
+import telegramIcon from "../../assets/tech-stack/telegram.svg";
+import trelloTriggerIcon from "../../assets/tech-stack/trello-trigger.svg";
+import twilioIcon from "../../assets/tech-stack/twilio.svg";
+import twitterIcon from "../../assets/tech-stack/twitter.svg";
+import webhookIcon from "../../assets/tech-stack/webhook.svg";
+import woocommerceTriggerIcon from "../../assets/tech-stack/woocommerce-trigger.svg";
+import zoomIcon from "../../assets/tech-stack/zoom.svg";
 
 export function Main() {
+  const images = [
+    wordpress,
+    shopify,
+    airtableIcon,
+    calendlyTriggerIcon,
+    clickupIcon,
+    codeIcon,
+    deepseekChatIcon,
+    dropboxIcon,
+    gmailIcon,
+    googleCalendarIcon,
+    googleDocsIcon,
+    googleDriveIcon,
+    googleSheetsIcon,
+    highlevelIcon,
+    httpRequestIcon,
+    hubspotIcon,
+    mailchimpIcon,
+    mailgunIcon,
+    microsoftExcelIcon,
+    microsoftOutlookIcon,
+    mongodbIcon,
+    notionTriggerIcon,
+    odooIcon,
+    openaiIcon,
+    pipedriveIcon,
+    slackIcon,
+    supabaseIcon,
+    telegramIcon,
+    trelloTriggerIcon,
+    twilioIcon,
+    twitterIcon,
+    webhookIcon,
+    woocommerceTriggerIcon,
+    zoomIcon
+  ];
+
   return (
     <Container>
       <Particles
@@ -149,79 +209,7 @@ export function Main() {
                 "value": "*",
                 "weight": "400"
               },
-              "image": [
-                {
-                  "src": boostrapIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": cssIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": wordpress,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": shopify,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": htmlIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": jsIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                // {
-                //   "src": mysqlIcon,
-                //   "width": 20,
-                //   "height": 20
-                // },
-                {
-                  "src": python,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": java,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": reactIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": sassIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": typescriptIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                // {
-                //   "src": vscodeIcon,
-                //   "width": 20,
-                //   "height": 20
-                // },
-                {
-                  "src": vueIcon,
-                  "width": 20,
-                  "height": 20
-                },
-
-              ],
+              "image": images.map(src => ({ src, width: 20, height: 20 })),
               "polygon": {
                 "sides": 5
               },

@@ -1,16 +1,5 @@
 import { Container } from "./styles";
 import FaheemJ from "../../assets/faheem-dp.png";
-import python from "../../assets/python.svg";
-import java from "../../assets/java.svg";
-import wordpress from "../../assets/wordpress.svg";
-import shopify from "../../assets/shopify.svg";
-import htmlIcon from "../../assets/html-icon.svg";
-import cssIcon from "../../assets/css-icon.svg";
-import jsIcon from "../../assets/js-icon.svg";
-import reactIcon from "../../assets/react-icon.svg";
-import typescriptIcon from "../../assets/typescript-icon.svg";
-import vueIcon from "../../assets/vue-icon.svg";
-import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export function About() {
@@ -66,8 +55,8 @@ export function About() {
           </div>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
-          <h3>My Automation & Development Stack:</h3>
+        {/* <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
+          <h3>Stack I am familiar with:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
           <div className="hability">
@@ -125,9 +114,9 @@ export function About() {
               <img src={boostrapIcon} alt="Bootstrap CSS framework" itemProp="knowsAbout" />
             </ScrollAnimation>
           </div>
-        </div>
+        </div> */}
         <ScrollAnimation animateIn="fadeInLeft" delay={0.5 * 1000}>
-          <h4>Automation Platforms:</h4>
+          <h3>Automation Platforms:</h3>
           <ul>
             <li itemProp="knowsAbout">Make.com (Integromat)</li>
             <li itemProp="knowsAbout">N8N</li>
